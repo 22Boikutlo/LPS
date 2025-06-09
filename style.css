@@ -33,6 +33,9 @@ nav a {
     background: #94d2bd;
     color: #003745;
 }
+.background{
+    list-style: none;
+}
 
 #services {
     background-color: #f4f4f4;
@@ -69,6 +72,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    position: relative;
 }
 
 /* Contact Section - Horizontal Layout */
@@ -78,7 +82,7 @@ footer {
     padding: 20px;
     border: 1px solid #ddd;
     background: #f7f7f7;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
